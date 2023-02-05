@@ -1,7 +1,13 @@
 {
   "name": "hatim-portfolio",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "description": "Hatim Namakwala's portfolio website",
+  "license": "MIT",
+  "author": {
+    "email": "mohammedsegval53@gmail.com",
+    "name": "Mohammed Segval"
+  },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@testing-library/jest-dom": "^5.16.5",
