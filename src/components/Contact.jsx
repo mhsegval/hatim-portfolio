@@ -15,7 +15,7 @@ const Contact = () => {
     }
 
     const [form, setForm] = useState(formDetails);
-    const [buttonText, setButtonText] = useState('send')
+    const [buttonText, setButtonText] = useState('Send')
     const [status, setStatus] = useState({});
 
     const formRef = useRef();

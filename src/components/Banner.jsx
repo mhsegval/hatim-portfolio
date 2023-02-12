@@ -58,9 +58,9 @@ const Banner = () => {
                     {({isVisible}) => 
                         <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                             <span className='tagline'>Welcome to my portfolio</span>
-                            <h1>{`Hi, I am Hatim `}<BiHappyAlt /></h1>
+                            <h1>{`Hi, I'm Hatim `}<BiHappyAlt /></h1>
                             <h2><FiCornerDownRight /> <span className='wrap'>{text}</span></h2>
-                            <p>An energetic and driven marketing professional with 3 years of experience in developing and executing successful marketing strategies and campaigns to increase brand awareness, drive sales, and engage target audience. Skilled in project management, content creation, and digital marketing.</p>
+                            <p>An energetic and driven marketing professional with 3 years of experience in developing and executing successful marketing strategies and campaigns to increase brand awareness, drive sales, and engage target audience.</p>
                             <button onClick={() => window.location.href='#contact'}>Let's Connect<BsFillArrowRightCircleFill size={25}/></button>
                         </div>
                     }          

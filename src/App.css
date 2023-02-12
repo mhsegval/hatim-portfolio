@@ -18,6 +18,8 @@
 }
 
 /* Default CSS */
+::-webkit-scrollbar {display:none;}
+
 * {
     margin: 0;
     padding: 0;
@@ -233,7 +235,7 @@ p, a, li, button, ul {
   
   /************ Banner Css ************/
   .banner {
-    margin-top: 0;
+    margin-top: 0px;
     padding: 200px 0 100px 0;
     background-image: url('./assets/img/banner-bg.png');
     background-position: top center;
@@ -248,6 +250,7 @@ p, a, li, button, ul {
     border: 1px solid rgba(255, 255, 255, 0.5);
     font-size: 20px;
     margin-bottom: 16px;
+    margin-top: 10px;
     display: inline-block;
   }
   .banner h1 {
@@ -346,13 +349,13 @@ p, a, li, button, ul {
   .project {
     padding: 50px 0;
     position: relative;
-    background-color: black;
+    background-color: transparent;
   }
   .project h2 {
       font-size: 45px;
       font-weight: 700;
       text-align: center;
-      margin-bottom: 10px;
+      margin-bottom: 20px;
   }
   .project p {
     color: #B8B8B8;
@@ -366,9 +369,10 @@ p, a, li, button, ul {
 
   .proj-imgbx {
     position: relative;
-    border-radius: 30px;
+    border-radius: 20px;
     overflow: hidden;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
+    cursor: pointer;
   }
   .proj-imgbx::before {
     content: "";
@@ -397,7 +401,7 @@ p, a, li, button, ul {
     opacity: 1;
   }
   .proj-txtx h4 {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 700;
     letter-spacing: 0.8px;
     line-height: 1.1em;
@@ -414,7 +418,7 @@ p, a, li, button, ul {
     bottom: 0;
     width: 35%;
     right: 0;
-    z-index: 1;
+    z-index: -1;
   }
   
   /************ Projects Css ************/
@@ -491,12 +495,14 @@ p, a, li, button, ul {
   
   /************ Footer Css ************/
   .footer {
-    padding: 0 0 3px 0;
+    padding: 10px;
+    background-color: #121212;
   }
   .footer p {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 12px;
     color: #B8B8B8;
     letter-spacing: 1px;
-    margin-top: 10px;
+    text-align: right;
+    padding: 8px;
   }
