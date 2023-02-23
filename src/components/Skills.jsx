@@ -36,7 +36,7 @@ const Skills = () => {
                 <Col>
                     <div className="skill-box">
                         <h2>Skills</h2>
-                        <p>I am capable of managing a company's social media presence to promote the brand and engage with customers. I have experience in brand development, market research, and strategic planning & analysis to inform decision making and create effective content, aided by my skills in graphic design tools like Adobe Illustrator, Photoshop, and Figma, as well as data analysis and insights.</p>
+                        <p>Alrighty! I’ve got a whole arsenal of marketing skills that are just dying to be put to use. And with me on your side, it’s like a party every day! I’ve got all the skills you need to succeed, from brand development to data analysis and insights. And I promise to make it all fun and enjoyable, like a marketing carnival ride</p>
                         <Carousel responsive={responsive} infinite={true} className='skill-slider'>
                             <div className="item">
                                 <img src={meter2} alt="" />
@@ -52,7 +52,7 @@ const Skills = () => {
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="" />
-                                <h5>Content Development</h5>
+                                <h5>Campaign Management</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="" />
@@ -60,7 +60,7 @@ const Skills = () => {
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="" />
-                                <h5>Adobe Cloud</h5>
+                                <h5>Market Research</h5>
                             </div>
                         </Carousel>
                     </div>

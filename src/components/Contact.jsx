@@ -52,7 +52,7 @@ const Contact = () => {
                     <img src={contactImg} className="d-none d-md-block" alt="Contact me" />
                 </Col>
                 <Col md={6}>
-                    <h2>Get In Touch</h2>
+                    <h2>Don’t leave me hanging; hit me up and let’s get this party started!</h2>
                     <form ref={formRef} onSubmit={sendEmail}>
                         <Row>
                             <Col sm={6} className='px-sm-1'>

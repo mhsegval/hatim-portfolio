@@ -62,7 +62,7 @@ const Project = () => {
               link: "https://drive.google.com/file/d/1KT0DgSK1eDOHu_5ZTnKPEfxHtzjvZBmj/view"
             },
             {
-              title: "Flee Rental Car Service logs",
+              title: "Flee Rental Car Service logos",
               imgUrl: projImg10,
               link: "https://drive.google.com/file/d/1PMeNzhSON0gg5orPTCx3-ouN5tod6pki/view"
             },
@@ -87,16 +87,9 @@ const Project = () => {
               {({ isVisible }) =>
               <div>
                 <h2 className={isVisible ? "animate__animated animate__slideInUp": ""}>Projects</h2>
-                <p>Click on individual Project to see the whole project documentation</p>
+                <p>Still confused? Click on my individual project. "It's like winning the lottery but without the money.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                  <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
-                    <Nav.Item>
-                      <Nav.Link eventKey="first">Tab 1</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="second">Tab 2</Nav.Link>
-                    </Nav.Item>
-                  </Nav>
+                  
                   <Tab.Content>
                     <Tab.Pane eventKey="first">
                       <Row>
@@ -127,6 +120,14 @@ const Project = () => {
                       </Row>
                     </Tab.Pane>
                   </Tab.Content>
+                  <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+                    <Nav.Item>
+                      <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                    </Nav.Item>
+                  </Nav>
                 </Tab.Container>
               </div>}
             </TrackVisibility>

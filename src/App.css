@@ -430,8 +430,8 @@ p, a, li, button, ul {
     width: 92%;
   }
   .contact h2 {
-      font-size: 45px;
-      font-weight: 700;
+      font-size: 30px;
+      font-weight: 500;
     margin-bottom: 30px;
   }
   .contact form input, .contact form textarea {

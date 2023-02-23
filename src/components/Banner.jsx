@@ -19,7 +19,7 @@ const Banner = () => {
 
 
     useEffect(() => {
-        const toRotate = ['Marketing Specialist', 'Brand Strategist', 'Advertising Expert'];
+        const toRotate = ['Marketing Specialist'];
         const tick = () => {
             let i = loopNum % toRotate.length;
             let fullText = toRotate[i];
@@ -60,7 +60,7 @@ const Banner = () => {
                             <span className='tagline'>Welcome to my portfolio</span>
                             <h1>{`Hi, I'm Hatim `}<BiHappyAlt /></h1>
                             <h2><FiCornerDownRight /> <span className='wrap'>{text}</span></h2>
-                            <p>An energetic and driven marketing professional with 3 years of experience in developing and executing successful marketing strategies and campaigns to increase brand awareness, drive sales, and engage target audience.</p>
+                            <p>Howdy! I’m a marketing wizard, here to save the day (or at least your brand). I’ve spent the last three years stretching my creative muscles and devising strategies that will make your head spin like a Beyoncé dance move. I’ll make your brand stand out like a flamingo in a flock of pigeons. I can engage your target audience like a celebrity gossip columnist and drive sales like a hot dog stand at a baseball game. Let’s create something magical together!</p>
                             <button onClick={() => window.location.href='#contact'}>Let's Connect<BsFillArrowRightCircleFill size={25}/></button>
                         </div>
                     }          
